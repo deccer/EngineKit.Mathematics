@@ -9,7 +9,20 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>EngineKit.Native.Glfw</PackageId>
+        <Authors>deccer</Authors>
+        <Company>Graphics Programming</Company>
+        <PackageProjectUrl>https://github.com/deccer/EngineKit.Mathematics</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/deccer/EngineKit.Mathematics</RepositoryUrl>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
     <ItemGroup>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="System.Runtime" Version="4.3.1" />
         <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
         <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
