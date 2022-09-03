@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>EngineKit.Native.Mathematics</PackageId>
+        <PackageId>EngineKit.Mathematics</PackageId>
         <Authors>deccer</Authors>
         <Company>Graphics Programming</Company>
         <PackageProjectUrl>https://github.com/deccer/EngineKit.Mathematics</PackageProjectUrl>
